@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .bigdiv {
     background-color: gray;
     background-image: url("../assets/bg.jpg");
@@ -7,11 +11,11 @@
 
 .whitefont {
     color: white;
-    font-family: 'robotomedium';
+    font-family: 'robotoregular';
     font-weight: 400;
     font-style: normal;
     line-height: 1.4;
-    font-size: large;
+    font-size: x-large;
     letter-spacing: 0.05rem;
 }
 
@@ -57,4 +61,13 @@ button {
     padding: 0.8rem 1.336rem;
     font-weight: 700;
     order: 1;
+    font-size: large;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    margin-left: 10%;
+    margin-top: 18%;
 }
