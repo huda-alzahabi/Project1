@@ -15,10 +15,38 @@
     letter-spacing: 0.05rem;
 }
 
+.subbigdiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightsub {
+    flex-shrink: 0;
+    width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    flex-wrap: nowrap;
+}
+
+.item {
+    order: 0;
+    position: relative;
+    display: inline-block;
+    width: auto;
+    margin: 1%;
+}
+
 .logo {
     width: auto;
     max-width: 100%;
     height: 80px;
+    align-self: flex-start;
 }
 
 button {
@@ -28,4 +56,5 @@ button {
     color: white;
     padding: 0.8rem 1.336rem;
     font-weight: 700;
+    order: 1;
 }
