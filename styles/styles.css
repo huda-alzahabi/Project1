@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    overflow-wrap: break-word;
 }
 
 .bigdiv {
@@ -7,6 +8,7 @@ body {
     background-image: url("../assets/bg.jpg");
     background-size: cover;
     background-blend-mode: multiply;
+    width: 100%;
 }
 
 .whitefont {
@@ -15,7 +17,7 @@ body {
     font-weight: 400;
     font-style: normal;
     line-height: 1.4;
-    font-size: x-large;
+    font-size: large;
     letter-spacing: 0.05rem;
 }
 
@@ -26,7 +28,7 @@ body {
 
 .rightsub {
     flex-shrink: 0;
-    width: 100%;
+    width: 80%;
 }
 
 a {
@@ -101,4 +103,26 @@ button {
 
 .statcontainer>div {
     margin: auto;
+    margin-top: 5%;
+}
+
+.skillsimg {
+    width: 40%;
+    margin: 10%;
+}
+
+.skillsdiv {
+    font-family: 'robotoregular';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    font-size: x-large;
+    margin: auto;
+}
+
+.largerskill {
+    font-size: calc((3 - 1) * 1.2vw + 1rem);
+    line-height: 1.196;
+    letter-spacing: 0em;
+    margin-left: -10%;
 }
