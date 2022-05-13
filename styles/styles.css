@@ -31,7 +31,7 @@ body {
     width: 80%;
 }
 
-a {
+li>a {
     color: white;
     text-decoration: none;
 }
@@ -118,6 +118,7 @@ button {
     line-height: 1.4;
     font-size: x-large;
     margin: auto;
+    margin-top: 5%;
 }
 
 .largerskill {
@@ -125,4 +126,8 @@ button {
     line-height: 1.196;
     letter-spacing: 0em;
     margin-left: -10%;
+}
+
+p>a {
+    color: #18ea19;
 }
