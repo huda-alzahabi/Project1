@@ -14,11 +14,12 @@ body {
 .whitefont {
     color: white;
     font-family: 'robotoregular';
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     line-height: 1.4;
     font-size: large;
     letter-spacing: 0.05rem;
+    text-transform: none;
 }
 
 .subbigdiv {
@@ -31,7 +32,8 @@ body {
     width: 80%;
 }
 
-li>a {
+li>a,
+button>a {
     color: white;
     text-decoration: none;
 }
@@ -62,10 +64,10 @@ button {
     background-color: #18ea19;
     border-color: #18ea19;
     color: white;
-    padding: 0.8rem 1.336rem;
+    padding: 1% 2%;
     font-weight: 700;
     order: 1;
-    font-size: large;
+    font-size: small;
 }
 
 .about {
@@ -130,4 +132,18 @@ button {
 
 p>a {
     color: #18ea19;
+}
+
+.greenbg {
+    background-color: #18ea19;
+    margin-top: -7%;
+}
+
+.discover {
+    text-align: center;
+}
+
+.services {
+    width: 25%;
+    margin: auto;
 }
