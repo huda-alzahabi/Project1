@@ -36,6 +36,8 @@ a {
 
 .menu {
     flex-wrap: nowrap;
+    font-size: medium;
+    letter-spacing: 0;
 }
 
 .item {
@@ -70,4 +72,33 @@ button {
     width: 38%;
     margin-left: 10%;
     margin-top: 18%;
+}
+
+.greenNum {
+    color: #18ea19;
+    text-align: center;
+    white-space: pre-wrap;
+    font-size: xx-large;
+    font-weight: 700;
+    -webkit-text-size-adjust: 100%;
+    margin: auto;
+}
+
+.statistics {
+    text-align: center;
+    font-family: 'robotoregular';
+    font-weight: 700;
+    font-style: normal;
+    font-size: x-large;
+}
+
+.statcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.statcontainer>div {
+    margin: auto;
 }
