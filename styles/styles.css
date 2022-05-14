@@ -141,9 +141,17 @@ p>a {
 
 .discover {
     text-align: center;
+    font-size: calc((3 - 1) * 1.2vw + 1rem);
+    padding-top: 5%;
+    line-height: 1.196;
+    -webkit-text-size-adjust: 100%;
 }
 
 .services {
-    width: 25%;
+    width: 27%;
     margin: auto;
+}
+
+.leftservice {
+    margin-right: -20%;
 }
