@@ -101,6 +101,8 @@ button {
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    margin-top: -4%;
+    margin-right: 5%;
 }
 
 .statcontainer>div {
@@ -159,4 +161,8 @@ p>a {
 
 .leftservice {
     margin-right: -20%;
+}
+
+.progpadd {
+    padding-bottom: 5%;
 }
