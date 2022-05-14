@@ -128,6 +128,11 @@ button {
     line-height: 1.196;
     letter-spacing: 0em;
     margin-left: -10%;
+    margin-right: 20%;
+}
+
+.innerskill {
+    margin-right: 20%;
 }
 
 p>a {
