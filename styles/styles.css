@@ -205,8 +205,12 @@ p>a {
     width: 100%;
 }
 
+.flex-container>div>img {
+    margin: 1%;
+}
+
 .tv {
-    padding-top: 5%;
+    padding-top: 3%;
     font-family: 'robotoregular';
     font-weight: bold;
     font-size: calc((2.5 - 1) * 1.2vw + 1rem);
@@ -219,4 +223,14 @@ p>a {
 
 .greybg {
     background-color: #e6e6e6;
+}
+
+.funding {
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.nop {
+    padding: 0%;
 }
