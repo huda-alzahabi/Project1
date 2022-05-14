@@ -166,6 +166,7 @@ p>a {
 
 .progpadd {
     padding-bottom: 5%;
+    padding-top: 3%;
 }
 
 .global {
@@ -187,4 +188,9 @@ p>a {
     width: 90%;
     justify-self: center;
     margin-left: 5%;
+}
+
+.quote {
+    width: 55%;
+    margin-left: 25%;
 }
