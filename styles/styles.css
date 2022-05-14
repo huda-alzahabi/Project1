@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
     overflow-wrap: break-word;
 }
 
@@ -165,4 +166,25 @@ p>a {
 
 .progpadd {
     padding-bottom: 5%;
+}
+
+.global {
+    font-size: xx-large;
+    justify-content: center;
+    margin-left: 23%;
+    margin-right: 23%;
+    margin-top: -4%;
+}
+
+.network {
+    font-size: large;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: -2%;
+}
+
+.companies {
+    width: 90%;
+    justify-self: center;
+    margin-left: 5%;
 }
