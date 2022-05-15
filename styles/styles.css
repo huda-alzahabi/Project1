@@ -23,6 +23,10 @@ body {
     text-transform: none;
 }
 
+.pp {
+    font-size: x-large;
+}
+
 .subbigdiv {
     display: flex;
     justify-content: space-between;
@@ -297,4 +301,59 @@ hr {
 
 .icons {
     color: white;
+}
+
+@media (max-width: 900px) {
+    .bigdiv {
+        width: 50%;
+    }
+    .about {
+        margin-left: 3%;
+        width: 80%;
+        font-size: calc((1.6 - 1) * 1.2vh + 1rem);
+        margin-top: 50%;
+    }
+    .statcontainer {
+        display: inline-grid;
+        margin-left: 0;
+        margin-top: 5%;
+        width: 50%;
+    }
+    .statistics {
+        font-size: small;
+    }
+    .greenNum {
+        font-size: medium;
+    }
+    .whitefont,
+    .pp {
+        font-size: xx-small;
+    }
+    nav {
+        display: none;
+    }
+    .logo {
+        height: 30px;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .skillsimg {
+        width: 80%;
+        margin-bottom: 0;
+    }
+    .skillsdiv {
+        font-size: x-small;
+    }
+    .skillsdiv>.largerskill {
+        font-size: medium;
+    }
+    .largerskill {
+        margin-left: 5%;
+        margin-right: 15%;
+        margin-top: 0;
+    }
+    .innerskill {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
 }
