@@ -234,3 +234,21 @@ p>a {
 .nop {
     padding: 0%;
 }
+
+hr {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.flex-cont {
+    display: flex;
+}
+
+.flex-cont>div {
+    width: 25%;
+}
+
+.flex-cont>div>img {
+    width: 100%;
+    justify-content: center;
+}
