@@ -356,4 +356,19 @@ hr {
         margin-left: 15%;
         margin-right: 15%;
     }
+    .greenbg {
+        margin-top: 0;
+    }
+    .greenbg>div {
+        width: 50%
+    }
+    .greenbg>div>div>h1 {
+        font-size: medium;
+        padding-top: 10%;
+    }
+    .services {
+        width: 180%;
+        margin-left: 6%;
+    }
+    ;
 }
