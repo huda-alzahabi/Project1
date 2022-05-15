@@ -235,6 +235,12 @@ p>a {
     padding: 0%;
 }
 
+.blackbg {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
 hr {
     margin-left: 5%;
     margin-right: 5%;
@@ -272,4 +278,23 @@ hr {
 .subs {
     font-family: 'robotoregular';
     font-size: calc((4.3 - 1) * 1.2vh + 1rem);
+}
+
+.foot {
+    color: white;
+    font-family: 'robotoregular';
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+    padding: 2%;
+}
+
+.priv {
+    text-align: center;
+    padding-left: 20%;
+    width: max-content;
+}
+
+.icons {
+    color: white;
 }
